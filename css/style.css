@@ -1,0 +1,210 @@
+/*import local font*/
+@font-face {
+    font-family: 'Chinese Rocks';
+    src: url('../font/chineserocks.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Athiti';
+    src: url("../font/Athiti-Regular.ttf") format("truetype");
+}
+
+
+body {
+    background-color: #00618B;
+    margin: 0;
+}
+
+.top-section {
+    height: 100%;
+}
+
+.review {
+    background: #00618B;
+    margin-left: 15vw;
+    margin-right: 15vw;    
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.review-item {
+    width: 20vw;
+    flex: 1 1 0;
+    height: auto;
+    color: white;
+    margin: 1vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.review-item span {
+    font-family: 'Athiti', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    margin: 1vw;
+
+    justify-content: center;
+    height: 100%;
+}
+
+.top-section {
+    background-color: #1c98ce;
+    background-image: url(../img/background.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;    
+    padding-bottom: 35vh; 
+    background-blend-mode: overlay;
+
+}
+
+.content-top {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.socials > a {
+    color: transparent;
+    margin: .5vw;
+    max-height: 32px;
+    max-width: 32px;
+}
+
+.big-text-main {
+    font-family: 'Chinese Rocks';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8rem;
+    line-height: 7rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.text {
+    width: 20vw;
+    height: 7rem;
+}
+
+.small-text {
+    font-family: 'Athiti';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: white;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-family: 'Chinese Rocks';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: white;
+    cursor: pointer;
+    margin-right: 0.5vw;
+    transition: background-color 0.1s;
+}
+
+.btn-buy-raft {
+    background-color: #0088C9;
+}
+
+.btn-buy-raft:hover {
+    background-color: #00A0E0;
+}
+
+.btn-watch-trailer {
+    background-color: #1B191E;
+}
+
+.btn-watch-trailer:hover {
+    background-color: #2D2A2F;
+}
+
+
+.trees {
+    background-image: url(../img/tree.svg) norepeat;
+
+    width:100%;
+    height:auto;
+    z-index:300;
+    bottom: 0px;
+    top: 10px;
+    flex-grow: 0;
+    position: relative;
+}
+
+.footer-btn {
+    font-family: 'Chinese Rocks';
+    font-style: normal;
+    font-weight: 100;
+    padding: 0.2rem 1rem;
+    border: rgba(255, 255, 255, 0.829) solid 2px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.middle-footer {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.socials-footer {
+    margin: 1rem 0;
+}
+
+.copyandpriva {
+    font-family: 'Athiti';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: white;
+    margin: 1rem 0;
+    display: contents;
+}
+
+.prv {
+    color: #C58B56;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    background: #1B191E;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Center footer-content*/
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
